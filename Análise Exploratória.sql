@@ -97,9 +97,10 @@ join [PortfolioProject].[dbo].[covid-vaccinations] CV
 where  CD.continent <> '' 
 order by 1,2
 
-select pv.*, ([Pessoas Vacinadas]/nullif( [População],0) )* 100 as [Taxa de Pessoas Vacinadas]
+select pv.*, ([Pessoas Vacinadas]* 100/nullif( [População],0) ) as [Taxa de Pessoas Vacinadas]
 from [PortfolioProject].[dbo].[populacao_vacinada] PV
-order by 2,3 
+where [Localização] = 'Brazil'
+GROUP BY DATEADD(MONTH, DATEDIFF(MONTH, 0, [Data]),0)
 
 
 
@@ -108,3 +109,8 @@ CREATE VIEW
 PessoasVacinadasPorLocalizacaoTempo as 
 select pv.*, (PessoasVacinadas/nullif(population,0) * 100) as TotalPessoasVacinadas
 from [PortfolioProject].[dbo].[Population_Vaccinations] PV
+
+
+
+
+
