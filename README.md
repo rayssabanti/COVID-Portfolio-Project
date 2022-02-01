@@ -22,10 +22,19 @@ Utilizei como base de dados do [ourworldindata.org](https://ourworldindata.org/c
 #### :round_pushpin:	   Visualização dos dados
 <img align="center" src="https://i.imgur.com/IdiLjNF.png"/>
 
+[Disponível aqui](https://public.tableau.com/app/profile/rayssa6091/viz/CovidDashboard_16436717499310/Painel1?publish=yes)
+
 
 ####  :round_pushpin:	Análise exploratória (Vacinação)
 * Contagem de pessoas vacinadas por país 
+<img align="center" src="https://i.imgur.com/KOAUe2i.png"/>
 * Progressão da vacinação por dia 
+<img align="center" src="https://i.imgur.com/EQ6mF4O.png"/>
 * Progressão de mortes por dia, comparado com a vacinação.
+<img align="center" src="https://i.imgur.com/EPVZqhJ.png"/>
+
 
 #### :round_pushpin:  Visualização dos dados 
+<img align="left" src="https://i.imgur.com/vBZNGPd.png"  width="400px">
+<img align="center" src="https://i.imgur.com/p5x7kJx.png" width="500px">
+
