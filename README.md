@@ -2,7 +2,7 @@
 ### :dart: Objetivo 
 Realizar a exploração de dados com o SQL SERVER, e realizar constatações e apresentá-las visualmente com o Tableau. 
 #### :card_index_dividers: Dados Utilizados 
-Utilizei como base de dados do [ourworldindata.org](https://ourworldindata.org/covid-deaths) onde é provido diariamente os dados atualizados das mortes confirmadas por covid (de 2020 até os primeiros dias de 2022 - antes desse pico de ômicron).
+Utilizei como base de dados do [ourworldindata.org](https://ourworldindata.org/covid-deaths) onde é provido diariamente os dados atualizados das mortes confirmadas por covid (de 2020 até os primeiros dias de 2022 - antes da ômicron).
 ####  :round_pushpin:	 Análise exploratória (Global)
 * Calcular o total de casos
 * Calcular o total de mortes 
@@ -28,8 +28,10 @@ Utilizei como base de dados do [ourworldindata.org](https://ourworldindata.org/c
 ####  :round_pushpin:	Análise exploratória (Vacinação)
 * Contagem de pessoas vacinadas por país 
 <img align="center" src="https://i.imgur.com/KOAUe2i.png"/>
+
 * Progressão da vacinação por dia 
 <img align="center" src="https://i.imgur.com/EQ6mF4O.png"/>
+
 * Progressão de mortes por dia, comparado com a vacinação.
 <img align="center" src="https://i.imgur.com/EPVZqhJ.png"/>
 
